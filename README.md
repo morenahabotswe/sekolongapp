@@ -114,10 +114,4 @@ src/
 └── assets/         # Static assets
 ```
 
----
 
-## Development phases
-
-See `MASTER_BUILD_PROMPT.md` in the project root for the full product specification and phased roadmap.
-
-**Current phase:** Phase 1 – Foundation (Auth, roles, layout, basic dashboards)
