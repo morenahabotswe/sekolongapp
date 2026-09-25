@@ -5,6 +5,7 @@ import { Home } from '@/pages/Home'
 import { Login } from '@/pages/Login'
 import { Register } from '@/pages/Register'
 import { Dashboard } from '@/pages/Dashboard'
+import { Courses } from '@/pages/Courses'
 import { Placeholder } from '@/pages/Placeholder'
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
@@ -47,7 +48,7 @@ function AppRoutes() {
           path="/courses"
           element={
             <ProtectedRoute>
-              <Placeholder title="Courses" description="Course catalogue and enrolment will appear here." />
+              <Courses />
             </ProtectedRoute>
           }
         />
